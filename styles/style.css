@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,700i');
+
+* { margin: 0; padding: 0; border: 1px solid black;}
+
+.page {
+	width: 1400px;
+	height: 1470px;
+	background-color: #f7f9fc;
+}
+
+.header {
+	width: 980px;
+	height: 180px;
+	display: inline-block;
+	position: relative;
+	left: 210px;
+}
+
+.header__title {
+	font-family: Lato;
+	font-size: 42px;
+	font-style: italic;
+	display: inline-block;
+	position: relative;
+	top: 77px;
+}
+
+.main {
+	width: 980px;
+	height: 1017px;
+	display: inline-block;
+	position: relative;
+	left: 210px;
+	top: 8px;
+	background-color: #ffffff;
+	box-shadow: 0 0 5px;
+}
+
+.main__header {
+	width: 756px;
+	height: 102px;
+	border-bottom: 2px solid #eeeeee;
+	position: relative;
+	top: 50px;
+	left: 97px;
+}
+
+.main__title {
+	font-family: Lato;
+	font-size: 40px;
+	font-style: bold;
+	display: inline-block;
+	position: relative;
+	top: 22px;
+}
+
+.main__profile {
+	width: 363px;
+	height: 745px;
+	display: inline-block;
+	position: relative;
+	top: 95px;
+	left: 294px;
+}
+
+.profile__field-name {
+	font-family: Lato;
+	font-size: 20px;
+	display: inline-block;
+}
+
+.profile__form {
+	width: 100%;
+	height: 53px;
+	display: block;
+}
+
+.profile__input-text {
+	width: 100%;
+	height: 100%;
+	background-color: #f7f9fc;
+}
+
+.profile__field {
+	padding-bottom: 30px;
+}
+
+.footer {
+	width: 100%;
+	height: 160px;
+	background-color: #5c6bc0;
+	text-align: center
+}
+
+.footer__title {
+	font-family: Lato;
+	font-size: 36px;
+	font-style: italic;
+	color: #4a569a;
+	display: inline;
+	position: relative;
+	top: 68px;
+	text-align: center
+}
